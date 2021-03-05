@@ -76,25 +76,25 @@ export default {
         this.winMessage = `${this.boxes[0]} is Won`
       }
       else if(this.boxes[3] === this.boxes[4] && this.boxes[3] === this.boxes[5] && this.boxes[3] !== "empty"){
-        this.winMessage = `${this.boxes[0]} is Won`
+        this.winMessage = `${this.boxes[3]} is Won`
       }
       else if(this.boxes[6] === this.boxes[7] && this.boxes[6] === this.boxes[8] && this.boxes[6] !== "empty"){
-        this.winMessage = `${this.boxes[0]} is Won`
+        this.winMessage = `${this.boxes[6]} is Won`
       }
       else if(this.boxes[0] === this.boxes[3] && this.boxes[0] === this.boxes[6] && this.boxes[0] !== "empty"){
         this.winMessage = `${this.boxes[0]} is Won`
       }
       else if(this.boxes[1] === this.boxes[4] && this.boxes[1] === this.boxes[7] && this.boxes[1] !== "empty"){
-        this.winMessage = `${this.boxes[0]} is Won`
+        this.winMessage = `${this.boxes[1]} is Won`
       }
       else if(this.boxes[2] === this.boxes[5] && this.boxes[2] === this.boxes[8] && this.boxes[2] !== "empty"){
-        this.winMessage = `${this.boxes[0]} is Won`
+        this.winMessage = `${this.boxes[2]} is Won`
       }
       else if(this.boxes[0] === this.boxes[4] && this.boxes[0] === this.boxes[8] && this.boxes[0] !== "empty"){
         this.winMessage = `${this.boxes[0]} is Won`
       }
       else if(this.boxes[2] === this.boxes[4] && this.boxes[2] === this.boxes[6] && this.boxes[2] !== "empty"){
-        this.winMessage = `${this.boxes[0]} is Won`
+        this.winMessage = `${this.boxes[2]} is Won`
       }
       else if(this.boxes.includes("empty") !== true){  
         this.reset()
